@@ -1,0 +1,10 @@
+[
+  { "from": ["package.json", "webpack.config.js"], "to": "" },
+  { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
+  { 
+    "from": ["src/index.jsx", "src/style.css", "src/index.html"], 
+    "to": "src" 
+  },
+  { "from": "public/favicon.ico", "to": "public", "kit": "commons" },
+  { "from": "src/img/rocket.svg", "to": "src/img", "kit": "commons" }
+]

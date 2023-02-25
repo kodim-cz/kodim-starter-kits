@@ -1,2 +1,3 @@
 # kodim-starter-kits
-Project templates for create-kodim-app
+
+Project templates for create-kodim-app.
