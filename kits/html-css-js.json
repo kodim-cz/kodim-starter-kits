@@ -1,0 +1,8 @@
+[
+  { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
+  { 
+    "from": ["index.js", "style.css", "index.html"], 
+    "to": "" 
+  },
+  { "from": "public/favicon.ico", "to": "", "kit": "commons" }
+]
