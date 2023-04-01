@@ -1,4 +1,5 @@
-* {
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
