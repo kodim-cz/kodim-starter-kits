@@ -1,7 +1,7 @@
 [
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { 
-    "from": ["script.js", "style.css", "index.html"], 
+    "from": ["script.js", "index.html"], 
     "to": "" 
   },
   { "from": "public/favicon.ico", "to": "", "kit": "commons" }
