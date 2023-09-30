@@ -1,8 +1,8 @@
 [
-  { "from": ["package.json", "webpack.config.js", ".eslintrc.js", "tsconfig.json"], "to": "" },
+  { "from": ["package.json", "vite.config.ts", ".eslintrc.cjs", "tsconfig.json", "tsconfig.node.json"], "to": "" },
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { "from": ["src/index.tsx", "src/style.css"], "to": "src" },
-  { "from": "public/index.html", "to": "public" },
+  { "from": "index.html", "to": "" },
   { "from": "public/favicon.ico", "to": "public", "kit": "commons" },
   { "from": "src/img/rocket.svg", "to": "src/img", "kit": "commons" }
 ]

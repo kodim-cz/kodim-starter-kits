@@ -1,10 +1,11 @@
 [
-  { "from": ["package.json", "webpack.config.js"], "to": "" },
+  { "from": ["package.json", "vite.config.js"], "to": "" },
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { 
-    "from": ["src/index.jsx", "src/style.css", "src/index.html"], 
+    "from": ["src/index.jsx", "src/style.css"], 
     "to": "src" 
   },
+  { "from": "index.html", "to": "" },
   { "from": "public/favicon.ico", "to": "public", "kit": "commons" },
   { "from": "src/img/rocket.svg", "to": "src/img", "kit": "commons" }
 ]
