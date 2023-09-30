@@ -1,0 +1,32 @@
+{
+  "kits": {
+    "html-css": {
+        "description": "Šablona projektu s HTML a CSS, bez npm.",
+        "type": "plain"
+    },
+    "html-js": {
+        "description": "Šablona projektu s HTML a JavaScriptem, bez npm.",
+        "type": "plain"
+    },
+    "html-css-js": {
+        "description": "Šablona projektu s HTML, CSS a JavaScriptem, bez npm.",
+        "type": "plain"
+    },
+    "vanilla": {
+        "description": "Šablona projektu pro JavaScript, používá npm.",
+        "type": "package.json"
+    },
+    "react": {
+        "description": "Šablona projektu pro React (JavaScript), používá npm.",
+        "type": "package.json"
+    },
+    "react-eslint": {
+        "description": "Šablona projektu pro React (JavaScript) s ESlint, používá npm.",
+        "type": "package.json"
+    },
+    "react-ts-eslint": {
+        "description": "Šablona projektu pro React (TypeScript) s ESlint, používá npm.",
+        "type": "package.json"
+    }
+  }
+}
