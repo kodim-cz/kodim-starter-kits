@@ -6,6 +6,8 @@ Project templates for create-kodim-app.
 
 ```bash
 npm init kodim-app@latest <project-name> [kit-name]
+npm install # only for React kits
+npx vite
 ```
 
 ## Test
