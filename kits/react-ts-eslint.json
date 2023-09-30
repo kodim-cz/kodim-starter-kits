@@ -1,5 +1,5 @@
 [
-  { "from": ["package.json", "vite.config.ts", ".eslintrc.cjs", "tsconfig.json", "tsconfig.node, json"], "to": "" },
+  { "from": ["package.json", "vite.config.ts", ".eslintrc.cjs", "tsconfig.json", "tsconfig.node.json"], "to": "" },
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { "from": ["src/index.tsx", "src/style.css"], "to": "src" },
   { "from": "index.html", "to": "" },
