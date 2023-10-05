@@ -1,9 +1,10 @@
 [
+  { "from": ["package.json", "vite.config.js"], "to": "" },
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { "from": "index.html", "to": "" },
   { 
-    "from": ["src/index.js", "src/style.css"], 
-    "to": "src" 
+    "from": ["src/index.jsx", "src/style.css"], 
+    "to": "src"
   },
   { "from": "public/favicon.ico", "to": "public", "kit": "commons" },
   { "from": "src/img/rocket.svg", "to": "src/img", "kit": "commons" }
