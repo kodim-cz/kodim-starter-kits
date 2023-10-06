@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@czechitas/render": "^0.3.1",
-    "glob": "^10.3.0"
+    "@czechitas/render": "^0.3.1"
   },
   "devDependencies": {
-    "vite": "^4.4.11"
+    "vite": "^4.4.11",
+    "glob": "^10.3.0"
   }
 }
