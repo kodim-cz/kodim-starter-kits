@@ -3,7 +3,7 @@ import '../global.css';
 import './index.css';
 
 document.querySelector('#root').innerHTML = render(
-  <div class="container">
+  <div className="container">
     <header>
       <div className="logo"></div>
       <h1>Webová aplikace</h1>
