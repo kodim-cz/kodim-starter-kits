@@ -2,10 +2,15 @@
   { "from": ["package.json", "vite.config.js"], "to": "" },
   { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
   { 
-    "from": ["src/index.jsx", "src/style.css"], 
+    "from": [
+      "src/pages/HomePage/img/rocket.svg",
+      "src/pages/HomePage/index.jsx",
+      "src/pages/HomePage/style.css",
+      "src/global.css",
+      "src/index.html",
+      "src/index.jsx"
+    ], 
     "to": "src" 
   },
-  { "from": "index.html", "to": "" },
-  { "from": "public/favicon.ico", "to": "public", "kit": "commons" },
-  { "from": "src/img/rocket.svg", "to": "src/img", "kit": "commons" }
+  { "from": "public/favicon.ico", "to": "public", "kit": "commons" }
 ]
