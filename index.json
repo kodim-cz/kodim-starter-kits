@@ -27,6 +27,10 @@
     "react-ts-eslint": {
         "description": "Šablona projektu pro React (TypeScript) s ESlint, používá npm.",
         "type": "package.json"
+    },
+    "vanilla-ts": {
+        "description": "Šablona projektu pro vanilla TypeScript, používá npm.",
+        "type": "package.json"
     }
   }
 }
