@@ -1,0 +1,20 @@
+[
+  { "from": ["package.json", "webpack.config.js", "tsconfig.json"], "to": "" },
+  { "from": "_gitignore", "to": "", "name": ".gitignore", "kit": "commons" },
+  {
+    "from": [
+      "src/styles.css",
+      "src/index.html",
+      "src/index.tsx"
+    ], 
+    "to": "src" 
+  },
+  {
+    "from": [
+      "src/components/App/index.tsx",
+      "src/components/App/style.css"
+    ],
+    "to": "src/components/App"
+  },
+  { "from": "public/favicon.ico", "to": "public", "kit": "commons" }
+]

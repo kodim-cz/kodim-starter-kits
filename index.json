@@ -31,6 +31,10 @@
     "vanilla-ts": {
         "description": "Šablona projektu pro vanilla TypeScript, používá npm.",
         "type": "package.json"
+    },
+    "react-ts": {
+        "description": "Šablona projektu pro React s TypeScriptem, používá npm.",
+        "type": "package.json"
     }
   }
 }
