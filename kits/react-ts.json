@@ -12,7 +12,7 @@
   {
     "from": [
       "src/components/App/index.tsx",
-      "src/components/App/style.css"
+      "src/components/App/styles.css"
     ],
     "to": "src/components/App"
   },
